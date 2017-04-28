@@ -1,1 +1,17 @@
-Dit is een test
+<div class="container margin-top-s">
+  <h1 class="text-center uppercase big">Lorin Werthen</h1>
+  
+  <hr>
+  
+  <% skills_item[:skills].each do |field, v| %>
+    <h2><%= field %></h2>
+    <% v.each do |level, skills| %>
+      <h3><%= level %></h3>
+      <ul class="skills">
+        <% skills.each do |skill| %>
+          <li><%= skill %></li>
+        <% end %>
+      </ul>
+    <% end %>
+  <% end %>
+</div>

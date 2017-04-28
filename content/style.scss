@@ -1,8 +1,11 @@
 html, body {
   height: 100%;
+}
+h1.big {
   font-family: 'Poiret One', cursive;
 }
 .hero-text {
+  font-family: 'Poiret One', cursive;
   margin: .25em 0;
   font-weight: 800;
   font-size: calc(1rem + 7.5vw);
@@ -65,4 +68,12 @@ a {
 #big-text {
     font-size: 120px;
     padding: 30px;
+}
+
+ul.skills {
+  width: 250px;
+  li {
+    margin: 0;
+    display: inline-block;
+  }
 }

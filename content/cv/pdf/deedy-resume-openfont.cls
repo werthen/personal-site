@@ -24,7 +24,7 @@
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{sections}{HTML}{039BE5}
 \definecolor{subheadings}{HTML}{333333}
-\definecolor{subsections}{HTML}{7F0000}
+\definecolor{subsections}{HTML}{0278B2}
 
 % Set main fonts
 \defaultfontfeatures{Mapping=tex-text}
