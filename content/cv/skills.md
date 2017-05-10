@@ -2,26 +2,28 @@
 skills:
   Programming:
     Experienced:
+      - Ruby
+      - C
       - Java
       - JavaScript
       - CSS
-      - Ruby
       - Python
       - Rails
       - Django
       - nanoc
       - Git
-      - Sass
       - HTML
       - LaTeX
     Intermediate:
-      - C
       - C++
+      - Sass
       - TypeScript
       - Shell
       - Sinatra
       - Linux
       - AngularJS/Angular2
+      - Crystal
+      - Coffeescript
     Familiar:
       - Rust
       - Android

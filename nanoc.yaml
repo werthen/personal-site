@@ -91,6 +91,9 @@ checks:
 
     
 deploy:
+  default:
+    kind: git
+    branch: gh-pages
   public:
     kind: rsync
     dst:  ansem:/var/www/html
