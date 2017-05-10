@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
 }
-h1.big {
+.big {
   font-family: 'Poiret One', cursive;
 }
 .hero-text {
@@ -15,12 +15,12 @@ h1.big {
 .hero {
   height: 100%;
   color: white;
-  
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  
+
   position: relative;
 }
 .bg-gradient {
@@ -41,17 +41,20 @@ h1.big {
 }
 
 .icons {
-    text-decoration: none;
-    letter-spacing: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    color: inherit;
+    // font-size: 50px;
 
-    font-size: 50px;
-    
-    i[class^="icon-"]:before {
-        display: inline-block;
+    a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
 
-        text-decoration: none;
+      &:not(:last-child) {
+        padding-right: calc(1rem + 1vw);
+      }
     }
 }
 
@@ -60,7 +63,7 @@ a {
         text-decoration: none;
         color: inherit;
     }
-    
+
     &:hover, &:active {
         color: black;
     }
