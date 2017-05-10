@@ -21,7 +21,8 @@ skills:
       - Shell
       - Sinatra
       - Linux
-      - AngularJS/Angular2
+      - AngularJS
+      - Angular2
       - Crystal
       - Coffeescript
     Familiar:
