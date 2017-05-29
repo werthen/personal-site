@@ -11,6 +11,7 @@ html, body {
   font-size: calc(1rem + 7.5vw);
   line-height: 1;
   text-transform: uppercase;
+  width: 100%;
 }
 .hero {
   height: 100%;
@@ -38,7 +39,7 @@ html, body {
 .icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 100%;
 
     a {
       display: block;
@@ -78,5 +79,26 @@ ul.skills {
   li {
     margin: 0;
     display: inline-block;
+  }
+}
+
+.photo {
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  width: 35vw;
+}
+
+@media screen and (max-width: 720px) {
+  .hero-text {
+    text-align: center;
+  }
+  .photo {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icons {
+    justify-content: center;
   }
 }
