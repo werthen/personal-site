@@ -2,18 +2,19 @@
 
 html, body {
   height: 100%;
-  font-family: sans-serif;
+
+  font-family: 'Lato', sans-serif;
 }
 
 a {
-    &:link, &:visited {
-        text-decoration: none;
-        color: inherit;
-    }
+  &:link, &:visited {
+    text-decoration: none;
+    color: inherit;
+  }
 
-    &:hover, &:active {
-        //color: black;
-    }
+  &:hover, &:active {
+    text-decoration: underline;
+  }
 }
 
 @import "components/bg-gradient";
