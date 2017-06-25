@@ -1,7 +1,7 @@
 ---
 name: HPC Ghent University
 role: Intern
-time: June 2016 -- December 2016
+time: June -- December 2016 \& June -- August 2017
 location: Ghent University, Belgium
 ---
 
