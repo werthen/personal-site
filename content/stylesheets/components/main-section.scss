@@ -1,0 +1,18 @@
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @include mobile {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  > .profilepicture {
+    > img {
+      border-radius: 50%;
+      width: 35vw;
+      height: auto;
+    }
+  }
+}

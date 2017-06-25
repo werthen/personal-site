@@ -1,0 +1,37 @@
+@import "_mixins";
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+a {
+    &:link, &:visited {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &:hover, &:active {
+        //color: black;
+    }
+}
+
+@import "components/bg-gradient";
+@import "components/main-hero";
+@import "components/info-section";
+@import "components/main-section";
+
+ul.skills {
+  width: 250px;
+  li {
+    margin: 0;
+    display: inline-block;
+  }
+}
+
+.photo {
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  width: 35vw;
+}

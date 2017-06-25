@@ -2,11 +2,15 @@
 
 compile '/**/*.html' do
   layout '/default.*'
+
+  filter :relativize_paths, type: :html
 end
 
 compile '/**/*.erb' do
   filter :erb
   layout '/default.*'
+
+  filter :relativize_paths, type: :html
 end
 
 # This is an example rule that matches Markdown (.md) files, and filters them
@@ -23,10 +27,11 @@ compile '/**/*.md', rep: :tex do
   filter :md_to_tex
 end
 
-compile '/**/*.scss' do
+compile '/stylesheets/main.scss' do
   filter :sass, syntax: :scss, style: :compressed
   write ext: 'css'
 end
+ignore '/stylesheets/**/*'
 
 route '/**/*.{html,md,erb}' do
   if item.identifier =~ '/index.*'

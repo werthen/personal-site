@@ -1,0 +1,42 @@
+.info-section {
+  font-family: 'Poiret One', cursive;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  > .name {
+    margin: .25em 0;
+    font-weight: 800;
+    font-size: calc(1rem + 7.5vw);
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  > .links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: .5em 0;
+    font-size: calc(36px + 20 * ((100vw - 320px) / 640));
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+
+      transition: transform 0.25s;
+
+      &:hover {
+        transform: scale(1.3);
+        transition: transform 0.25s;
+      }
+
+      &:not(:last-child) {
+        margin-right: calc(1rem + 1vw);
+      }
+    }
+  }
+}

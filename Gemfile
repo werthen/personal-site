@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'nanoc', '~>4.3'
 gem 'pandoc-ruby'
 gem 'sass'
+gem 'nokogiri'
 
 group :develop do
   gem 'adsf'

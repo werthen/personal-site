@@ -94,6 +94,8 @@ deploy:
   default:
     kind: git
     branch: gh-pages
+  ipfs:
+    kind: ipfs
   public:
     kind: rsync
     dst:  ansem:/var/www/html
