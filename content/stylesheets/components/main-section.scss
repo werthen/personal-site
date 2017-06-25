@@ -8,7 +8,26 @@
     justify-content: center;
   }
 
+  > .info-section {
+    flex-grow: 2;
+
+    padding-left: 10%;
+
+    @include mobile {
+      flex-grow: initial;
+      padding-left: inherit;
+
+      width: 100%;
+    }
+  }
+
   > .profilepicture {
+    flex-grow: 1;
+
+    @include mobile {
+      flex-grow: initial;
+    }
+
     > img {
       border-radius: 50%;
       width: 35vw;
