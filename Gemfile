@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', '~>4.3'
+gem 'nanoc', path: '/Users/don/Projects/nanoc'
 gem 'pandoc-ruby'
 gem 'sass'
 gem 'nokogiri'

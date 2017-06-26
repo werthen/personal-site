@@ -100,3 +100,8 @@ deploy:
     kind: rsync
     dst:  ansem:/var/www/html
     options: [ '-glpPrtvz', '-e', 'ssh -p 15259', '--delete']
+  all:
+    kind: multiple
+    targets:
+      - default
+      - ipfs

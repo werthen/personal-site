@@ -1,3 +1,12 @@
+PATH
+  remote: /Users/don/Projects/nanoc
+  specs:
+    nanoc (4.7.12)
+      cri (~> 2.8)
+      ddplugin (~> 1.0)
+      hamster (~> 3.0)
+      ref (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -34,11 +43,6 @@ GEM
     lumberjack (1.0.11)
     method_source (0.8.2)
     mini_portile2 (2.2.0)
-    nanoc (4.7.8)
-      cri (~> 2.8)
-      ddplugin (~> 1.0)
-      hamster (~> 3.0)
-      ref (~> 2.0)
     nenv (0.3.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
@@ -69,7 +73,7 @@ PLATFORMS
 DEPENDENCIES
   adsf
   guard-nanoc
-  nanoc (~> 4.3)
+  nanoc!
   nokogiri
   pandoc-ruby
   sass

@@ -3,9 +3,18 @@ module Nanoc::Deploying::Deployers
     identifier :ipfs
 
     def run
-      dir_hash = `ipfs add -r #{source_path} | tail -n1 | cut -d' ' -f2`
-      puts "Publishing #{dir_hash}"
-      puts `ipfs name publish #{dir_hash}`
+      if @dry_run
+        "ipfs add -r #{source_path} | tail -n1 | cut -d' ' -f2"
+      else
+        dir_hash = `ipfs add -r #{source_path} | tail -n1 | cut -d' ' -f2`
+        puts "Publishing #{dir_hash}"
+      end
+
+      if @dry_run
+        puts "ipfs name publish #{dir_hash}"
+      else
+        puts `ipfs name publish #{dir_hash}`
+      end
     end
   end
 end
