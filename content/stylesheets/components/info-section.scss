@@ -21,9 +21,9 @@
     display: flex;
     justify-content: space-between;
 
-    max-width: 65%;
+    width: 40vw;
     @include mobile {
-      max-width: 100%;
+      width: 100%;
       justify-content: space-around;
     }
 
