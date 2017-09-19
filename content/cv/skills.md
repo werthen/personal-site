@@ -3,10 +3,9 @@ skills:
   Programming:
     Experienced:
       - Ruby
-      - C
       - Java
       - JavaScript
-      - CSS
+      - CSS/SCSS
       - Python
       - Rails
       - Django
@@ -15,30 +14,25 @@ skills:
       - HTML
       - LaTeX
     Intermediate:
+      - C
       - C++
-      - Sass
       - TypeScript
       - Shell
       - Sinatra
       - Linux
       - AngularJS
       - Angular2
-      - Crystal
       - Coffeescript
     Familiar:
       - Rust
-      - Android
       - SQL
-      - JUCE
       - Haskell
       - Oz
-      - Flask
-      - Elixir
   Music:
     Experienced:
+      - Ableton Live
       - FL Studio
       - Synthesis techniques
-      - Ableton Live
     Intermediate:
       - Audio recording techniques
   Languages:

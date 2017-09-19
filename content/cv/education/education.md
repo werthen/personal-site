@@ -5,7 +5,7 @@ schools:
     educations:
       -
         description: MSc in Computer Science Engineering
-        time: Expected 2018
+        time: 2016--2018
         location: Ghent, Belgium
       -
         description: BSc in Computer Science

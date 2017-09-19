@@ -14,6 +14,7 @@ module Nanoc::Deploying::Deployers
         puts "ipfs name publish #{dir_hash}"
       else
         puts `ipfs name publish #{dir_hash}`
+        puts `ssh merkur "IPFS_PATH=/var/lib/ipfs ipfs pin add -r /ipfs/#{dir_hash}"`
       end
     end
   end
