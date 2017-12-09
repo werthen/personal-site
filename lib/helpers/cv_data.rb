@@ -14,6 +14,7 @@ module CVDataHelper
   def experience_fields
     @items.find_all('/cv/experience/**/*')
           .map { |e| File.basename(File.dirname(e.identifier.to_s)) }
+          .sort
           .uniq
   end
 
