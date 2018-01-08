@@ -16,17 +16,17 @@ skills:
     Intermediate:
       - C
       - C++
-      - TypeScript
       - Shell
       - Sinatra
       - Linux
-      - AngularJS
-      - Angular2
       - Coffeescript
+      - Haskell
     Familiar:
       - Rust
+      - TypeScript
+      - AngularJS
+      - Angular2
       - SQL
-      - Haskell
       - Oz
   Music:
     Experienced:

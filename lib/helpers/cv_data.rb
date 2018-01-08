@@ -19,7 +19,7 @@ module CVDataHelper
   end
 
   def experiences(field)
-    @items.find_all("/cv/experience/#{field}/*")
+    @items.find_all("/cv/experience/#{field}/*").sort_by(&:identifier)
   end
 
   # Group the skills so they look decent in LaTeX
