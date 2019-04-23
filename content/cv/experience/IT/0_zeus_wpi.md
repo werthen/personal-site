@@ -1,7 +1,7 @@
 ---
 name: Zeus WPI
 role: Systems Administrator \& Event Manager
-time: September 2014 -- Present
+time: September 2014 -- October 2018
 location: Ghent University, Belgium
 ---
 

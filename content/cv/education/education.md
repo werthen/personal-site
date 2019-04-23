@@ -4,7 +4,7 @@ schools:
     name: Ghent University
     educations:
       -
-        description: MSc in Computer Science Engineering
+        description: MSc in Computer Science Engineering --- Cum Laude
         time: 2016--2018
         location: Ghent, Belgium
       -

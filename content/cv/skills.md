@@ -13,6 +13,8 @@ skills:
       - Git
       - HTML
       - LaTeX
+      - Keras
+      - Tensorflow
     Intermediate:
       - C
       - C++
