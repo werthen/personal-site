@@ -1,7 +1,7 @@
 ---
 name: Robovision
 role: Data Scientist
-time: October 2018 -- Present
+time: October 2018 -- September 2019
 location: Ghent, Belgium
 ---
 
