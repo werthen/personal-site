@@ -1,0 +1,10 @@
+.blog-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > .blog-post {
+        max-width: 500px;
+        min-width: 500px;
+    }
+}

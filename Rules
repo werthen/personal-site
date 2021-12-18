@@ -23,7 +23,15 @@ compile '/**/*.tex' do
   write ext: 'pdf'
 end
 
-compile '/**/*.md', rep: :tex do
+compile '/blog/*.md' do
+  filter :kramdown
+  filter :typogruby
+
+  layout '/blog.*'
+  layout '/default.*'
+end
+
+compile '/cv/**/*.md', rep: :tex do
   filter :md_to_tex
 end
 
@@ -31,7 +39,7 @@ compile '/stylesheets/main.scss' do
   filter :sass, syntax: :scss, style: :compressed
   write ext: 'css'
 end
-ignore '/stylesheets/**/*'
+ignore '/stylesheets/**/*.scss'
 
 route '/**/*.{html,md,erb}' do
   if item.identifier =~ '/index.*'
@@ -46,3 +54,5 @@ compile '/**/*' do
 end
 
 layout '/**/*', :erb
+
+passthrough '/**/*'

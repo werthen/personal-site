@@ -29,7 +29,7 @@
 % Set main fonts
 \defaultfontfeatures{Mapping=tex-text}
 %\setmainfont[Color=primary, Path = fonts/lato/]{Lato-Lig}
-\setmainfont[Color=primary]{Fira Sans Light}
+\setmainfont[Color=primary, Path = fonts/fira/]{FiraSans-Light}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 \newcommand{\custombold}[1]{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1 \normalfont}
 
@@ -38,7 +38,7 @@
 \setlength{\TPVertModule}{1mm}
 \textblockorigin{0mm}{5mm} % start everyth
 \newcommand{\lastupdated}{\begin{textblock}{60}(175, 0)
-\color{date}\fontspec{Roboto Thin}\fontsize{6pt}{10pt}\selectfont
+\color{date}\fontspec[Path = fonts/roboto/]{Roboto-Thin}\fontsize{6pt}{10pt}\selectfont
 Last Updated on
 \today
 \end{textblock}}
@@ -51,7 +51,7 @@ Last Updated on
 		\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
 	} \\
 	\vspace{5pt}
-	\centering{ \color{headings}\fontspec{Roboto Light}\fontsize{9pt}{12pt}\selectfont #3}
+	\centering{ \color{headings}\fontspec[Path = fonts/roboto/]{Roboto-Light}\fontsize{9pt}{12pt}\selectfont #3}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 	\vspace{-15pt}
 }

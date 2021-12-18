@@ -1,10 +1,12 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', path: '/Users/don/Projects/nanoc'
+gem 'nanoc'
 gem 'pandoc-ruby'
 gem 'sass'
 gem 'nokogiri'
+gem 'kramdown'
+gem 'typogruby'
 
 group :develop do
   gem 'adsf'
