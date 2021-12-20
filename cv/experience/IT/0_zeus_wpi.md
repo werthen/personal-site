@@ -1,4 +1,3 @@
-
 ### Events organised
 Talks (e.g.\ by Richard Stallman of GNU), workshops and classes about programming languages and different frameworks. Organizer of the annual LAN-Party, including setup and organization of network.
 
