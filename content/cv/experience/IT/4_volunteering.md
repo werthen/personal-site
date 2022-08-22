@@ -1,7 +1,7 @@
 ---
 name: Codefever
 role: Volunteer
-time: September 2018 -- Present
+time: September 2018 -- September 2019
 location: Ghent, Belgium
 ---
 

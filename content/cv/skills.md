@@ -5,43 +5,31 @@ skills:
       - Ruby
       - Java
       - JavaScript
-      - CSS/SCSS
       - Python
-      - Rails
-      - Django
-      - nanoc
       - Git
       - HTML
       - LaTeX
       - Keras
       - Tensorflow
+      - Pytorch
     Intermediate:
-      - C
-      - C++
       - Shell
-      - Sinatra
       - Linux
-      - Coffeescript
-      - Haskell
     Familiar:
       - Rust
-      - TypeScript
-      - AngularJS
-      - Angular2
-      - SQL
-      - Oz
-  Music:
-    Experienced:
-      - Ableton Live
-      - FL Studio
-      - Synthesis techniques
-    Intermediate:
-      - Audio recording techniques
+      - C
+      - C++
+  # Music:
+  #   Experienced:
+  #     - Ableton Live
+  #     - FL Studio
+  #     - Synthesis techniques
+  #   Intermediate:
+  #     - Audio recording techniques
   Languages:
-    Mother tongue:
-      - Dutch
-    Experienced:
-      - English
-    Basic:
-      - French
+    Advanced:
+      - Dutch (C2 -- Native)
+      - English (C2)
+    Intermediate:
+      - French (B2)
 ---
