@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 let
   build-deps = import ./packages.nix;
 in stdenv.mkDerivation rec {
-  buildInputs = build-deps;
+  nativeBuildInputs = build-deps;
   name = "werthen.com";
   src = ./.;
   installPhase = ''
