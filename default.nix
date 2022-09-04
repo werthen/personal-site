@@ -1,4 +1,4 @@
-with import <nixpkgs> {};
+{ pkgs ? import <nixpkgs> {}}:
 let
   build-deps = import ./packages.nix;
 in stdenv.mkDerivation rec {
