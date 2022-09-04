@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {}}:
 let
   build-deps = import ./packages.nix;
-in stdenv.mkDerivation rec {
+in pkgs.stdenv.mkDerivation rec {
   nativeBuildInputs = build-deps;
   name = "werthen.com";
   src = ./.;
