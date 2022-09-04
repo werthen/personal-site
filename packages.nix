@@ -6,4 +6,4 @@ let
     gemdir = ./.;
   };
 in with pkgs;
-  [ gems (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem hyperref xcolor titlesec textpos isodate xltxtra realscripts roboto substr; }) ] ++ (if stdenv.isDarwin then [terminal-notifier] else [])
+  [ pandoc gems (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem hyperref xcolor titlesec textpos isodate xltxtra realscripts roboto substr; }) ] ++ (if stdenv.isDarwin then [terminal-notifier] else [])
