@@ -5,8 +5,10 @@ in stdenv.mkDerivation rec {
   nativeBuildInputs = build-deps;
   name = "werthen.com";
   src = ./.;
-  installPhase = ''
+  buildPhase = ''
     nanoc
+  '';
+  installPhase = ''
     cp -r ./output $out
   '';
 }
