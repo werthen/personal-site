@@ -1,7 +1,7 @@
 with import <nixpkgs> {};
 let
   gems = bundlerEnv {
-    name = "werthen.com";
+    name = "werthen.com-gems";
     inherit ruby;
     gemdir = ./.;
   };
