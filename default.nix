@@ -9,7 +9,8 @@ in pkgs.stdenv.mkDerivation rec {
     nanoc
   '';
   installPhase = ''
-    cp -r ./output $out
+    mkdir -p $out
+    cp -R output/* $out/
   '';
 }
 
